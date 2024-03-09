@@ -4,6 +4,8 @@ import "./App.css";
 import Counter from "./components/Counter";
 import Team from "./components/Team";
 import Users from "./components/Users";
+import LearnReact from "./components/LearnReact";
+import Posts from "./components/Posts";
 
 function App() {
   const handleClick = () => {
@@ -25,11 +27,13 @@ function App() {
         </a>
       </div>
       <h1>React Core Concept</h1>
+      <LearnReact></LearnReact>
       <button onClick={handleClick}>Click Me</button>
       <button onClick={() => handleClick2(5)}>Click to add</button>
       <Counter></Counter>
       <Team></Team>
       <Users></Users>
+      <Posts></Posts>
     </>
   );
 }
